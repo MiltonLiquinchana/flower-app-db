@@ -1,0 +1,16 @@
+/*
+DPA_TotalProductoUsado VARCHAR(50) NOT NULL,
+  DPA_FechaFumigacion DATE NOT NULL,
+  DPA_TotalAguaUsada INT NOT NULL,
+  DPA_Descripcion VARCHAR(255) NOT NULL,
+  FK_PRODUCTO INT NOT NULL,
+  FK_TIPOAPLICACION INT NOT NULL,
+  FOREIGN KEY (FK_PRODUCTO) REFERENCES Producto(PK_PRODUCTO),
+  FOREIGN KEY (FK_TIPOAPLICACION) REFERENCES TipoAplicacion(PK_TIPOAPLICACION)
+*/
+INSERT INTO DetallesProductoAplicado(DPA_TotalProductoUsado,
+  DPA_FechaFumigacion ,
+  DPA_TotalAguaUsada ,
+  DPA_Descripcion ,
+  FK_PRODUCTO ,
+  FK_TIPOAPLICACION) VALUES()
